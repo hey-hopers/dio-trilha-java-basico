@@ -38,6 +38,9 @@ public class ParametrosInvalidosException extends Exception {
         super(message);
     }
 }
+```
+
+#### `Contador.java`
 
 ```java
 import java.util.Scanner;
@@ -74,3 +77,4 @@ public class Contador {
         }
     }
 }
+```
