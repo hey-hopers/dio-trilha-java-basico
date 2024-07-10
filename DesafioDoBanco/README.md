@@ -1,18 +1,18 @@
-## Getting Started
+# Criando um Banco Digital com Java e Orientação a Objetos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Visão Geral do Projeto
 
-## Folder Structure
+O projeto `BancoDigital` é uma aplicação Java que simula operações bancárias básicas, oferecendo aos clientes dois tipos de contas (corrente e poupança) e funcionalidades como depósito, saque e transferência entre contas da mesma instituição.
 
-The workspace contains two folders by default, where:
+### Funcionalidades
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Recebe o nome do cliente e valores de depósito e transferência via terminal.
+- Realiza operações de depósito, saque e transferência entre contas.
+- Imprime extratos das contas com informações detalhadas.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Como Executar
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Abra o projeto no seu IDE Java de preferência (por exemplo, IntelliJ IDEA ou Eclipse).
+2. Verifique se você tem o Java Development Kit (JDK) instalado.
+3. Compile os arquivos Java `Cliente.java`, `Conta.java`, `ContaCorrente.java`, `ContaPoupanca.java` e `Main.java`.
+4. Execute a classe `Main` para iniciar a aplicação.
